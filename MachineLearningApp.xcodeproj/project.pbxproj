@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73961A2B2AC78E4900475FD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73961A2A2AC78E4900475FD1 /* AppDelegate.swift */; };
+		73961A2D2AC78E4900475FD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73961A2C2AC78E4900475FD1 /* SceneDelegate.swift */; };
+		73961A2F2AC78E4900475FD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73961A2E2AC78E4900475FD1 /* ViewController.swift */; };
+		73961A322AC78E4900475FD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73961A302AC78E4900475FD1 /* Main.storyboard */; };
+		73961A342AC78E4A00475FD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73961A332AC78E4A00475FD1 /* Assets.xcassets */; };
+		73961A372AC78E4A00475FD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73961A352AC78E4A00475FD1 /* LaunchScreen.storyboard */; };
+		73961A422AC78E4A00475FD1 /* MachineLearningAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73961A412AC78E4A00475FD1 /* MachineLearningAppTests.swift */; };
+		73961A4C2AC78E4B00475FD1 /* MachineLearningAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73961A4B2AC78E4B00475FD1 /* MachineLearningAppUITests.swift */; };
+		73961A4E2AC78E4B00475FD1 /* MachineLearningAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73961A4D2AC78E4B00475FD1 /* MachineLearningAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73961A3E2AC78E4A00475FD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73961A1F2AC78E4900475FD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73961A262AC78E4900475FD1;
+			remoteInfo = MachineLearningApp;
+		};
+		73961A482AC78E4B00475FD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73961A1F2AC78E4900475FD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73961A262AC78E4900475FD1;
+			remoteInfo = MachineLearningApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		73961A272AC78E4900475FD1 /* MachineLearningApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MachineLearningApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73961A2A2AC78E4900475FD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		73961A2C2AC78E4900475FD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		73961A2E2AC78E4900475FD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		73961A312AC78E4900475FD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		73961A332AC78E4A00475FD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		73961A362AC78E4A00475FD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		73961A382AC78E4A00475FD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73961A3D2AC78E4A00475FD1 /* MachineLearningAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MachineLearningAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73961A412AC78E4A00475FD1 /* MachineLearningAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineLearningAppTests.swift; sourceTree = "<group>"; };
+		73961A472AC78E4B00475FD1 /* MachineLearningAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MachineLearningAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73961A4B2AC78E4B00475FD1 /* MachineLearningAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineLearningAppUITests.swift; sourceTree = "<group>"; };
+		73961A4D2AC78E4B00475FD1 /* MachineLearningAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineLearningAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73961A242AC78E4900475FD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73961A3A2AC78E4A00475FD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73961A442AC78E4B00475FD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73961A1E2AC78E4900475FD1 = {
+			isa = PBXGroup;
+			children = (
+				73961A292AC78E4900475FD1 /* MachineLearningApp */,
+				73961A402AC78E4A00475FD1 /* MachineLearningAppTests */,
+				73961A4A2AC78E4B00475FD1 /* MachineLearningAppUITests */,
+				73961A282AC78E4900475FD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73961A282AC78E4900475FD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73961A272AC78E4900475FD1 /* MachineLearningApp.app */,
+				73961A3D2AC78E4A00475FD1 /* MachineLearningAppTests.xctest */,
+				73961A472AC78E4B00475FD1 /* MachineLearningAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73961A292AC78E4900475FD1 /* MachineLearningApp */ = {
+			isa = PBXGroup;
+			children = (
+				73961A2A2AC78E4900475FD1 /* AppDelegate.swift */,
+				73961A2C2AC78E4900475FD1 /* SceneDelegate.swift */,
+				73961A2E2AC78E4900475FD1 /* ViewController.swift */,
+				73961A302AC78E4900475FD1 /* Main.storyboard */,
+				73961A332AC78E4A00475FD1 /* Assets.xcassets */,
+				73961A352AC78E4A00475FD1 /* LaunchScreen.storyboard */,
+				73961A382AC78E4A00475FD1 /* Info.plist */,
+			);
+			path = MachineLearningApp;
+			sourceTree = "<group>";
+		};
+		73961A402AC78E4A00475FD1 /* MachineLearningAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				73961A412AC78E4A00475FD1 /* MachineLearningAppTests.swift */,
+			);
+			path = MachineLearningAppTests;
+			sourceTree = "<group>";
+		};
+		73961A4A2AC78E4B00475FD1 /* MachineLearningAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				73961A4B2AC78E4B00475FD1 /* MachineLearningAppUITests.swift */,
+				73961A4D2AC78E4B00475FD1 /* MachineLearningAppUITestsLaunchTests.swift */,
+			);
+			path = MachineLearningAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73961A262AC78E4900475FD1 /* MachineLearningApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73961A512AC78E4B00475FD1 /* Build configuration list for PBXNativeTarget "MachineLearningApp" */;
+			buildPhases = (
+				73961A232AC78E4900475FD1 /* Sources */,
+				73961A242AC78E4900475FD1 /* Frameworks */,
+				73961A252AC78E4900475FD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MachineLearningApp;
+			productName = MachineLearningApp;
+			productReference = 73961A272AC78E4900475FD1 /* MachineLearningApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		73961A3C2AC78E4A00475FD1 /* MachineLearningAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73961A542AC78E4B00475FD1 /* Build configuration list for PBXNativeTarget "MachineLearningAppTests" */;
+			buildPhases = (
+				73961A392AC78E4A00475FD1 /* Sources */,
+				73961A3A2AC78E4A00475FD1 /* Frameworks */,
+				73961A3B2AC78E4A00475FD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73961A3F2AC78E4A00475FD1 /* PBXTargetDependency */,
+			);
+			name = MachineLearningAppTests;
+			productName = MachineLearningAppTests;
+			productReference = 73961A3D2AC78E4A00475FD1 /* MachineLearningAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		73961A462AC78E4B00475FD1 /* MachineLearningAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73961A572AC78E4B00475FD1 /* Build configuration list for PBXNativeTarget "MachineLearningAppUITests" */;
+			buildPhases = (
+				73961A432AC78E4B00475FD1 /* Sources */,
+				73961A442AC78E4B00475FD1 /* Frameworks */,
+				73961A452AC78E4B00475FD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73961A492AC78E4B00475FD1 /* PBXTargetDependency */,
+			);
+			name = MachineLearningAppUITests;
+			productName = MachineLearningAppUITests;
+			productReference = 73961A472AC78E4B00475FD1 /* MachineLearningAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73961A1F2AC78E4900475FD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					73961A262AC78E4900475FD1 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					73961A3C2AC78E4A00475FD1 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 73961A262AC78E4900475FD1;
+					};
+					73961A462AC78E4B00475FD1 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 73961A262AC78E4900475FD1;
+					};
+				};
+			};
+			buildConfigurationList = 73961A222AC78E4900475FD1 /* Build configuration list for PBXProject "MachineLearningApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73961A1E2AC78E4900475FD1;
+			productRefGroup = 73961A282AC78E4900475FD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73961A262AC78E4900475FD1 /* MachineLearningApp */,
+				73961A3C2AC78E4A00475FD1 /* MachineLearningAppTests */,
+				73961A462AC78E4B00475FD1 /* MachineLearningAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73961A252AC78E4900475FD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73961A372AC78E4A00475FD1 /* LaunchScreen.storyboard in Resources */,
+				73961A342AC78E4A00475FD1 /* Assets.xcassets in Resources */,
+				73961A322AC78E4900475FD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73961A3B2AC78E4A00475FD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73961A452AC78E4B00475FD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73961A232AC78E4900475FD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73961A2F2AC78E4900475FD1 /* ViewController.swift in Sources */,
+				73961A2B2AC78E4900475FD1 /* AppDelegate.swift in Sources */,
+				73961A2D2AC78E4900475FD1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73961A392AC78E4A00475FD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73961A422AC78E4A00475FD1 /* MachineLearningAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73961A432AC78E4B00475FD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73961A4E2AC78E4B00475FD1 /* MachineLearningAppUITestsLaunchTests.swift in Sources */,
+				73961A4C2AC78E4B00475FD1 /* MachineLearningAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73961A3F2AC78E4A00475FD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73961A262AC78E4900475FD1 /* MachineLearningApp */;
+			targetProxy = 73961A3E2AC78E4A00475FD1 /* PBXContainerItemProxy */;
+		};
+		73961A492AC78E4B00475FD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73961A262AC78E4900475FD1 /* MachineLearningApp */;
+			targetProxy = 73961A482AC78E4B00475FD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		73961A302AC78E4900475FD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73961A312AC78E4900475FD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		73961A352AC78E4A00475FD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73961A362AC78E4A00475FD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73961A4F2AC78E4B00475FD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		73961A502AC78E4B00475FD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73961A522AC78E4B00475FD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MachineLearningApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.begers.MachineLearningApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73961A532AC78E4B00475FD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MachineLearningApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.begers.MachineLearningApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		73961A552AC78E4B00475FD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.begers.MachineLearningAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MachineLearningApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MachineLearningApp";
+			};
+			name = Debug;
+		};
+		73961A562AC78E4B00475FD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.begers.MachineLearningAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MachineLearningApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MachineLearningApp";
+			};
+			name = Release;
+		};
+		73961A582AC78E4B00475FD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.begers.MachineLearningAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MachineLearningApp;
+			};
+			name = Debug;
+		};
+		73961A592AC78E4B00475FD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.begers.MachineLearningAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MachineLearningApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73961A222AC78E4900475FD1 /* Build configuration list for PBXProject "MachineLearningApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73961A4F2AC78E4B00475FD1 /* Debug */,
+				73961A502AC78E4B00475FD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73961A512AC78E4B00475FD1 /* Build configuration list for PBXNativeTarget "MachineLearningApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73961A522AC78E4B00475FD1 /* Debug */,
+				73961A532AC78E4B00475FD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73961A542AC78E4B00475FD1 /* Build configuration list for PBXNativeTarget "MachineLearningAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73961A552AC78E4B00475FD1 /* Debug */,
+				73961A562AC78E4B00475FD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73961A572AC78E4B00475FD1 /* Build configuration list for PBXNativeTarget "MachineLearningAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73961A582AC78E4B00475FD1 /* Debug */,
+				73961A592AC78E4B00475FD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73961A1F2AC78E4900475FD1 /* Project object */;
+}
