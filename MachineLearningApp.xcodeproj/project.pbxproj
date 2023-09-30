@@ -16,6 +16,7 @@
 		73961A422AC78E4A00475FD1 /* MachineLearningAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73961A412AC78E4A00475FD1 /* MachineLearningAppTests.swift */; };
 		73961A4C2AC78E4B00475FD1 /* MachineLearningAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73961A4B2AC78E4B00475FD1 /* MachineLearningAppUITests.swift */; };
 		73961A4E2AC78E4B00475FD1 /* MachineLearningAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73961A4D2AC78E4B00475FD1 /* MachineLearningAppUITestsLaunchTests.swift */; };
+		73961A5B2AC792A500475FD1 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 73961A5A2AC792A500475FD1 /* MobileNetV2.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		73961A472AC78E4B00475FD1 /* MachineLearningAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MachineLearningAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73961A4B2AC78E4B00475FD1 /* MachineLearningAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineLearningAppUITests.swift; sourceTree = "<group>"; };
 		73961A4D2AC78E4B00475FD1 /* MachineLearningAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineLearningAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		73961A5A2AC792A500475FD1 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				73961A332AC78E4A00475FD1 /* Assets.xcassets */,
 				73961A352AC78E4A00475FD1 /* LaunchScreen.storyboard */,
 				73961A382AC78E4A00475FD1 /* Info.plist */,
+				73961A5A2AC792A500475FD1 /* MobileNetV2.mlmodel */,
 			);
 			path = MachineLearningApp;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				73961A2F2AC78E4900475FD1 /* ViewController.swift in Sources */,
 				73961A2B2AC78E4900475FD1 /* AppDelegate.swift in Sources */,
+				73961A5B2AC792A500475FD1 /* MobileNetV2.mlmodel in Sources */,
 				73961A2D2AC78E4900475FD1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
